@@ -62,3 +62,5 @@ static/js
 static/css
 package-lock.json
 auth.token
+
+.DS_Store

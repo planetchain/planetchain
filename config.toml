@@ -9,11 +9,11 @@ disableRSS = true
 
 [params]
   domain = "ipfs.io"
-  name = "IPFS"
-  title = "IPFS is the Distributed Web"
-  description = "A peer-to-peer hypermedia protocol to make the web faster, safer, and more open."
-  author = "Protocol Labs"
-  github = "https://github.com/ipfs/ipfs"
+  name = "PLANETCHAIN"
+  title = "PLANETCHAIN is focusing on decentrallized web techonologies"
+  description = "A Labs to provide services and applications based on IPFS and blockchain"
+  author = "PLANETCHAIN"
+  github = "https://github.com/planetchain"
   specifications = "https://github.com/ipfs/specs"
   social = [ { title = "Twitter", link = "http://twitter.com/ipfsbot" },
     { title = "Facebook", link = "https://www.facebook.com/sharer/sharer.php?u=https://ipfs.io" },

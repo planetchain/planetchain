@@ -8,13 +8,13 @@
       <label for="menu-toggle">Menu</label>
       <ul class="list-unstyled list-inline cf">
         {{ if eq .page.URL "/" }}
-          <li><a href="/#why">Why</a></li>
-          <li><a href="/#how">How</a></li>
-          <li><a href="/#uses">Uses</a></li>
+          <li><a href="/#about">About</a></li>
+          <li><a href="/#projects">Projects</a></li>
+          <li><a href="/#team">Team</a></li>
         {{ else }}
           <li><a href="/">About</a></li>
         {{ end }}
-        <li><a href="/docs/install" {{ if eq .page.Params.pagename "install" }}class="current-item"{{ end }}>Install</a></li>
+        <li><a href="/docs/install" {{ if eq .page.Params.pagename "install" }}class="current-item"{{ end }}>Join</a></li>
         <li><a href="/media" {{ if eq .page.Type "media" }}class="current-item"{{ end }}>Media</a></li>
         <li><a href="/docs" {{ if and (eq .page.Type "docs") (not (eq .page.Params.pagename "install")) }}class="current-item"{{ end }}>Docs</a></li>
         <li><a href="/blog" {{ if or (eq .page.Type "blog") (eq .page.Data.Singular "author") }}class="current-item"{{ end }}>Blog</a></li>
@@ -23,9 +23,9 @@
     {{ if eq .hero "homepage" }}
       <div class="hero hero-home">
         <div class="hero-text">
-          <h2 class="headline-main">IPFS is the Distributed Web</h2>
+          <h2 class="headline-main">PLANETCHAIN is focusing on decentrallized web techonologies</h2>
           <span class="divider"></span>
-          <h3 class="subhead-main">A peer-to-peer hypermedia protocol<br /> to make the web faster, safer, and more open.</h3>
+          <h3 class="subhead-main">A Labs <br /> to provide services and applications based on IPFS and blockchain.</h3>
           <div class="cta">
             <a class="button button-outlined" href="docs/getting-started">Try it</a>
             <a class="button button-outlined popup-youtube" href="https://www.youtube.com/watch?v=8CMxDNuuAiQ">Watch demo</a>
